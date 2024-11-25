@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+/* Header Styling */
+header {
+    background-color: #34495e;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav .menu-icon {
+    font-size: 2em;
+    display: none;
+    cursor: pointer;
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li {
+    font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+section#about {
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #ff6f61, #d25b7f, #f8a5c2);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #fff;
+}
+
+footer .copyright {
+    font-size: 1em;
+    color: #f1c40f;
+    margin-top: 15px;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-links a:hover {
+    transform: scale(1.2);
+    color: #f39c12;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        gap: 10px;
+        background-color: #34495e;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+    }
+
+    nav .nav-links.active {
+        display: flex;
+    }
+
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav .nav-links li {
+        text-align: center;
+    }
+}

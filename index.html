@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - ShopAdSpace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">ShopAdSpace</a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="products-link">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="about">
+            <h1>Welcome to ShopAdSpace!</h1>
+            <p>Hi there! I'm Kanyinsola, and I'm thrilled to have you here. This site was born from my love for discovering the latest and greatest in tech gadgets. As someone who's always been passionate about technology, I’ve spent countless hours researching, testing, and comparing gadgets to find the best deals and value for money.</p>
+            
+            <h2>Why I Started This Website</h2>
+            <p>I know how overwhelming it can be to find the perfect product with so many options available. My goal is to make your shopping experience easier by providing honest, in-depth reviews and helpful guides for tech gadgets. Whether you're looking for a new smartphone, laptop, or accessories, I’m here to help you make an informed decision based on real-world experiences.</p>
+
+            <h2>What I Do</h2>
+            <ul>
+                <li>Detailed product reviews to help you choose the best tech gadgets that fit your needs.</li>
+                <li>Buying guides that break down essential features to consider when making a purchase.</li>
+                <li>Comparison articles that weigh the pros and cons of different products, so you can easily find the right one.</li>
+                <li>Personal recommendations based on my own experience with each product.</li>
+            </ul>
+
+            <h2>A Little About Me</h2>
+            <p>I’ve always had an interest in technology, especially gadgets that can make life easier. From the latest laptops to smart home devices, I’m constantly testing and researching new products to share with my readers. In my free time, I enjoy reading, traveling, and exploring new technologies. I also love connecting with fellow tech enthusiasts and sharing tips, so feel free to reach out to me with questions or suggestions.</p>
+
+            <h2>Affiliate Disclaimer</h2>
+            <p>I want to be transparent with you. Some of the links on this website are affiliate links, which means I earn a commission if you make a purchase through them. This doesn’t affect the price you pay, and I only promote products I truly believe in. Your trust is my priority, and I’m committed to offering you unbiased, honest reviews.</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Thank you for visiting ShopAdSpace! I hope you find the information here helpful. Don’t hesitate to reach out if you have any questions or simply want to chat about the latest tech trends.</p>
+        <p>Best regards,</p>
+        <p>Kanyinsola</p>
+        <p class="copyright">&copy; 2024 ShopAdSpace. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" target="_blank">&#xf09a; <!-- Facebook icon --></a>
+            <a href="#" target="_blank">&#xf099; <!-- Twitter icon --></a>
+            <a href="#" target="_blank">&#xf16d; <!-- Instagram icon --></a>
+            <a href="#" target="_blank">&#xf0e1; <!-- LinkedIn icon --></a>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-links');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
